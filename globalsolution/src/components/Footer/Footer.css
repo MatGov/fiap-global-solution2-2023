@@ -1,0 +1,42 @@
+:root {
+  --fonte-principal: 'Poppins', sans-serif;
+  --verde-fundo: #008858;
+  --cor-fundo: #ebecee;
+  --preto: #000000;
+  --branco: #ffffff;
+  --cor-lilas: #4d225e;
+}
+
+.footer-fundo-verde {
+  background-color: var(--verde-fundo);
+  color: var(--branco);
+  padding-top: 1rem;
+}
+
+.footer-text-reset {
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.footer-btn {
+  background-color: var(--verde-fundo) !important;
+  border-color: var(--branco) !important;
+  color: var(--branco) !important;
+}
+
+.footer-btn:hover {
+  border-color: var(--verde-fundo) !important;
+  color: var(--verde-fundo) !important;
+  background-color: var(--branco) !important;
+}
+
+.footer-input-email,
+.footer-input-telefone {
+  background-color: var(--cor-fundo);
+  color: var(--preto);
+}
+
+.footer-input-email:focus,
+.footer-input-telefone:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
